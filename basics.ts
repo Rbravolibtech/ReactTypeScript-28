@@ -22,10 +22,14 @@ let hobbies: string[];
 
 hobbies = ["Sports", "Cooking",]
 
-let person: {
+type person = {
     name: string;
     age: number;
-};
+}
+
+let person:
+
+
 
 person = {
     name: "max",
@@ -46,3 +50,14 @@ age: number;
 let course: string | number  = "React - the complete guide";
 
 course = 12346;
+
+// Functions and types
+
+function add(a: number, b: number){
+    return a + b;
+}
+
+function print(value: any) {
+    console.log(value);
+    
+}
